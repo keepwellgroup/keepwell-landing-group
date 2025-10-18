@@ -1,13 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Approach from "@/components/Approach";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Keepwell Group - Self-Funded Search for Quality Businesses</title>
+        <meta 
+          name="description" 
+          content="Keepwell Group is seeking to acquire a single profitable business in the lower middle market. Patient capital, long-term commitment, and hands-on operators." 
+        />
+      </Helmet>
+      
+      <div className="min-h-screen">
+        <Navigation />
+        <main>
+          <Hero />
+          <About />
+          <Approach />
+          <Contact />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
