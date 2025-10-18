@@ -12,7 +12,7 @@ const Contact = () => {
           
           <p className="text-lg text-foreground/80 mb-8">
             If you're a business owner thinking about your next chapter, or a broker 
-            with a company that might be a fit, we'd love to hear from you. All 
+            with a company that might be a fit, I'd love to hear from you. All 
             conversations are confidential and there's no obligation.
           </p>
           

@@ -25,8 +25,8 @@ const Hero = () => {
           to build something lasting
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto animate-fade-in">
-          We're seeking to acquire and grow a single, profitable business
-          where we can add real value over the long term.
+          I'm seeking to acquire and grow a single, profitable business
+          where I can add real value over the long term.
         </p>
         <Button
           size="lg"
