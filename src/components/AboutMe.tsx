@@ -1,4 +1,6 @@
 import andresPhoto from "@/assets/andres-photo.jpg";
+import stanfordLogo from "@/assets/stanford-logo.png";
+import nyuSternLogo from "@/assets/nyu-stern-logo.png";
 
 const AboutMe = () => {
   return (
@@ -20,27 +22,37 @@ const AboutMe = () => {
             
             <div className="space-y-6 text-lg text-foreground/80">
               <p>
-                I'm Andres Marcos, and I'm conducting a self-funded search to acquire 
-                and operate a single business. After years working in various industries, 
-                I've learned that the most rewarding work happens when you're deeply 
-                invested in something—not just financially, but personally.
+                I'm a hands-on operator with a track record of building resilient supply chains and scaling consumer products from concept to national distribution.
               </p>
               
               <p>
-                This search is about finding the right fit. I'm looking for a company 
-                where I can apply what I've learned, work alongside the existing team, 
-                and build something meaningful over the long haul. I'm not interested 
-                in quick exits or financial engineering—I want to run a business I'm 
-                proud of.
+                Most recently, I served as Chief Operating Officer at Biom, a sustainable wipes company, where I led product development, manufacturing, and logistics — transforming a young startup into a nationally distributed brand. Throughout my career, I've built and optimized operations across every stage of growth: from designing supply chains and improving vendor performance to implementing systems that drive efficiency and accountability. I take pride in turning complex, fast-moving environments into disciplined, sustainable operations.
               </p>
               
               <p>
-                I bring operational experience, a willingness to learn, and patient 
-                capital that isn't beholden to external timelines or pressures. Most 
-                importantly, I understand that buying a business is about more than 
-                numbers—it's about respecting what's been built and carrying it forward 
-                responsibly.
+                My family has owned and operated a fourth-generation business founded by my great-grandfather. Growing up around that legacy taught me the value of stewardship — of taking care of something someone has spent a lifetime building. That same sense of respect and responsibility is what now drives my search: to acquire, operate, and grow a great small business with the same long-term care that I would my own family's.
               </p>
+              
+              <p>
+                Born in Mexico and now based in Miami, I'm a husband and father of three, guided by the principles that shaped my upbringing — work hard, be kind, and build things that last.
+              </p>
+              
+              <p>
+                I earned a bachelor's and a master's degree in engineering from Stanford University as well as an MBA from NYU.
+              </p>
+              
+              <div className="flex items-center gap-8 mt-8 pt-6 border-t border-border">
+                <img 
+                  src={stanfordLogo} 
+                  alt="Stanford University" 
+                  className="h-16 w-auto opacity-60"
+                />
+                <img 
+                  src={nyuSternLogo} 
+                  alt="NYU Stern School of Business" 
+                  className="h-12 w-auto opacity-60"
+                />
+              </div>
             </div>
           </div>
         </div>
