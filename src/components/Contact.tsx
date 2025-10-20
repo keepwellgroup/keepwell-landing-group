@@ -18,7 +18,7 @@ const Contact = () => {
           
           <Button
             size="lg"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6"
+            variant="accent"
             onClick={() => window.location.href = "mailto:contact@keepwellgroup.com"}
           >
             <Mail className="mr-2 h-5 w-5" />

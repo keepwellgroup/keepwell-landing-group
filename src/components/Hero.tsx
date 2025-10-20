@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -10,31 +9,32 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/40 to-background/95" />
-      </div>
-      
-      <div className="relative container mx-auto px-6 py-32 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
-          Finding the right business
-          <br />
-          to build something lasting
-        </h1>
-        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto animate-fade-in">
-          I'm seeking to acquire and grow a single, profitable business
-          where I can add real value over the long term.
-        </p>
-        <Button
-          size="lg"
-          onClick={scrollToContact}
-          className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 animate-fade-in"
-        >
-          Start a Conversation
-        </Button>
+    <section className="min-h-screen flex items-center bg-background pt-20">
+      <div className="container mx-auto px-6 py-24">
+        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+          <div className="space-y-8">
+            <h1 className="text-5xl md:text-7xl font-light text-primary leading-tight">
+              Finding the right business
+              <br />
+              <em className="font-light">to build something lasting</em>
+            </h1>
+            <Button
+              size="lg"
+              variant="accent"
+              onClick={scrollToContact}
+              className="text-base"
+            >
+              Get in touch
+            </Button>
+          </div>
+          
+          <div className="text-lg text-foreground/80 leading-relaxed">
+            <p>
+              I'm seeking to acquire and grow a single, profitable business
+              where I can add real value over the long term.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

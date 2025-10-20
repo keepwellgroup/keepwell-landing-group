@@ -47,11 +47,11 @@ const Approach = () => {
               const IconComponent = step.icon;
               return (
                 <div key={index} className="text-center">
-                  <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-secondary" />
+                  <div className="w-16 h-16 bg-accent/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <IconComponent className="w-8 h-8 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">{step.title}</h3>
-                  <p className="text-foreground/70 text-sm">
+                  <h3 className="text-lg font-semibold text-primary mb-3">{step.title}</h3>
+                  <p className="text-foreground/70 text-sm leading-relaxed">
                     {step.description}
                   </p>
                 </div>
