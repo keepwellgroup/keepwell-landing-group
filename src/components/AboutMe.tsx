@@ -45,12 +45,12 @@ const AboutMe = () => {
                 <img 
                   src={stanfordLogo} 
                   alt="Stanford University" 
-                  className="h-16 w-auto opacity-60"
+                  className="w-32 h-auto opacity-60"
                 />
                 <img 
                   src={nyuSternLogo} 
                   alt="NYU Stern School of Business" 
-                  className="h-12 w-auto opacity-60"
+                  className="w-32 h-auto opacity-60"
                 />
               </div>
             </div>
