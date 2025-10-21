@@ -1,31 +1,31 @@
-import { Ear, Search, Handshake, TrendingUp, Heart } from "lucide-react";
+import { Phone, Users, FileText, Search, Flag } from "lucide-react";
 
 const Approach = () => {
   const steps = [
     {
-      icon: Ear,
-      title: "Listen first",
-      description: "I start by understanding your business, your goals, and what matters most to you in a transition."
+      icon: Phone,
+      title: "Initial call",
+      description: "It all starts with a phone call to meet each other, answer any questions and understand your plans and your business."
+    },
+    {
+      icon: Users,
+      title: "In-depth discussion",
+      description: "Meetings for in-depth discussion & sharing financial statements under an NDA."
+    },
+    {
+      icon: FileText,
+      title: "Non-binding offer",
+      description: "Initial non-binding offer is made, including valuation, terms and timeline."
     },
     {
       icon: Search,
-      title: "Do my homework",
-      description: "I thoroughly evaluate the business to understand its strengths, opportunities, and what it needs to succeed."
+      title: "Due diligence",
+      description: "Begin confirmatory diligence, work towards a definitive agreement."
     },
     {
-      icon: Handshake,
-      title: "Move thoughtfully",
-      description: "I take time to ensure the fit is right. This is a long-term decision for both sides, and I don't rush it."
-    },
-    {
-      icon: TrendingUp,
-      title: "Transition smoothly",
-      description: "I work with you to create a transition plan that honors your timeline and keeps the business stable."
-    },
-    {
-      icon: Heart,
-      title: "Build for the long term",
-      description: "Post-acquisition, I'm a hands-on operator focused on sustainable growth and preserving what made your business successful."
+      icon: Flag,
+      title: "Close & transition",
+      description: "The deal is signed and closed. After a brief transition period I'll take it from there."
     }
   ];
 
