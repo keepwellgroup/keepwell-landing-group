@@ -10,11 +10,15 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center bg-background pt-20">
-      <div className="container mx-auto px-6 py-24">
+    <section 
+      className="min-h-screen flex items-center pt-20 relative bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${heroImage})` }}
+    >
+      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="container mx-auto px-6 py-24 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="space-y-8">
-            <h1 className="text-5xl md:text-7xl font-light text-primary leading-tight">
+            <h1 className="text-5xl md:text-7xl font-light text-white leading-tight drop-shadow-lg">
               Finding the right business
               <br />
               <em className="font-light">to build something lasting</em>
@@ -29,13 +33,8 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="space-y-6">
-            <img 
-              src={heroImage} 
-              alt="Sunset over calm ocean" 
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
-            <p className="text-lg text-foreground/80 leading-relaxed">
+          <div className="text-lg text-white/90 leading-relaxed drop-shadow-lg">
+            <p>
               I'm seeking to acquire and grow a single, profitable business
               where I can add real value over the long term.
             </p>
