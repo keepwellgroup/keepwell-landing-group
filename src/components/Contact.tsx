@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -16,14 +16,25 @@ const Contact = () => {
             conversations are confidential and there's no obligation.
           </p>
           
-          <Button
-            size="lg"
-            variant="accent"
-            onClick={() => window.location.href = "mailto:andres@keepwellgroup.com"}
-          >
-            <Mail className="mr-2 h-5 w-5" />
-            andres@keepwellgroup.com
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              size="lg"
+              variant="accent"
+              onClick={() => window.location.href = "mailto:andres@keepwellgroup.com"}
+            >
+              <Mail className="mr-2 h-5 w-5" />
+              andres@keepwellgroup.com
+            </Button>
+            
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={() => window.location.href = "tel:+16099312051"}
+            >
+              <Phone className="mr-2 h-5 w-5" />
+              609-931-2051
+            </Button>
+          </div>
         </div>
       </div>
     </section>
