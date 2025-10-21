@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -28,8 +29,13 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="text-lg text-foreground/80 leading-relaxed">
-            <p>
+          <div className="space-y-6">
+            <img 
+              src={heroImage} 
+              alt="Sunset over calm ocean" 
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+            <p className="text-lg text-foreground/80 leading-relaxed">
               I'm seeking to acquire and grow a single, profitable business
               where I can add real value over the long term.
             </p>
