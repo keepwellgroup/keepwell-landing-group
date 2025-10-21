@@ -19,10 +19,10 @@ const Contact = () => {
           <Button
             size="lg"
             variant="accent"
-            onClick={() => window.location.href = "mailto:contact@keepwellgroup.com"}
+            onClick={() => window.location.href = "mailto:andres@keepwellgroup.com"}
           >
             <Mail className="mr-2 h-5 w-5" />
-            contact@keepwellgroup.com
+            andres@keepwellgroup.com
           </Button>
         </div>
       </div>
