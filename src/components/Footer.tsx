@@ -11,8 +11,8 @@ const Footer = () => {
             <a href="mailto:andres@keepwellgroup.com" className="hover:text-foreground transition-colors">
               andres@keepwellgroup.com
             </a>
-            <a href="tel:+16099312051" className="hover:text-foreground transition-colors">
-              609-931-2051
+            <a href="tel:+16098312051" className="hover:text-foreground transition-colors">
+              609-831-2051
             </a>
             <p className="text-center md:text-left">
               727 Crandon Blvd, Apt 202<br className="md:hidden" /> Key Biscayne, FL 33149

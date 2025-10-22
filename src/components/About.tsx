@@ -27,11 +27,11 @@ const About = () => {
                   My ideal business
                 </h3>
                 <ul className="space-y-2 text-foreground/70">
-                  <li>• $1M - $5M in EBITDA</li>
+                  <li>• $750K - $2M in EBITDA</li>
                   <li>• Stable, recurring revenue</li>
                   <li>• Strong customer relationships</li>
                   <li>• Room for operational improvement</li>
-                  <li>• Based in North America</li>
+                  <li>• Based in the Miami Dade area</li>
                 </ul>
               </div>
               
