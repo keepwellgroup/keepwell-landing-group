@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Keepwell Group - Self-Funded Search for Quality Businesses</title>
+        <title>Keepwell Group - Acquiring Quality Businesses</title>
         <meta 
           name="description" 
           content="Keepwell Group is seeking to acquire a single profitable business in the lower middle market. Patient capital, long-term commitment, and hands-on operators." 

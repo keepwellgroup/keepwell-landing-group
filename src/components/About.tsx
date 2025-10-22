@@ -9,10 +9,10 @@ const About = () => {
           
           <div className="space-y-6 text-lg text-foreground/80">
             <p>
-              Keepwell Group is a self-funded search focused on acquiring a single, 
-              profitable business in the lower middle market. I'm not looking to flip 
-              or scale aggressively—I want to find the right company where I can be 
-              a thoughtful, hands-on operator for years to come.
+              Keepwell Group is focused on acquiring a single, profitable business in 
+              the lower middle market. I'm not looking to flip or scale aggressively - 
+              I want to find the right company where I can be a thoughtful, hands-on 
+              operator for years to come.
             </p>
             
             <p>

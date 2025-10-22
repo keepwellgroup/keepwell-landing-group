@@ -26,15 +26,15 @@ const AboutMe = () => {
               </p>
               
               <p>
-                Most recently, I served as Chief Operating Officer at Biom, a sustainable wipes company, where I led product development, manufacturing, and logistics — transforming a young startup into a nationally distributed brand. Throughout my career, I've built and optimized operations across every stage of growth: from designing supply chains and improving vendor performance to implementing systems that drive efficiency and accountability. I take pride in turning complex, fast-moving environments into disciplined, sustainable operations.
+                Most recently, I served as Chief Operating Officer at Biom, a sustainable wipes company, where I led product development, manufacturing, and logistics, transforming a young startup into a nationally distributed brand. Throughout my career, I've built and optimized operations across every stage of growth: from designing supply chains and improving vendor performance to implementing systems that drive efficiency and accountability. I take pride in turning complex, fast-moving environments into disciplined, sustainable operations.
               </p>
               
               <p>
-                My family has owned and operated a fourth-generation business founded by my great-grandfather. Growing up around that legacy taught me the value of stewardship — of taking care of something someone has spent a lifetime building. That same sense of respect and responsibility is what now drives my search: to acquire, operate, and grow a great small business with the same long-term care that I would my own family's.
+                My family has owned and operated a fourth-generation business founded by my great-grandfather. Growing up around that legacy taught me the value of stewardship, of taking care of something someone has spent a lifetime building. That same sense of respect and responsibility is what now drives my search: to acquire, operate, and grow a great small business with the same long-term care that I would my own family's.
               </p>
               
               <p>
-                Born in Mexico and now based in Miami, I'm a husband and father of three, guided by the principles that shaped my upbringing — work hard, be kind, and build things that last.
+                Born in Mexico and now based in Miami, I'm a husband and father of three, guided by the principles that shaped my upbringing: work hard, be kind, and build things that last.
               </p>
               
               <p>

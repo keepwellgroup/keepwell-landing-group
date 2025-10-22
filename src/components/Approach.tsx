@@ -10,7 +10,7 @@ const Approach = () => {
     {
       icon: Users,
       title: "In-depth discussion",
-      description: "Meetings for in-depth discussion & sharing financial statements under an NDA."
+      description: "Meetings for in-depth discussion and sharing financial statements under an NDA."
     },
     {
       icon: FileText,
@@ -24,7 +24,7 @@ const Approach = () => {
     },
     {
       icon: Flag,
-      title: "Close & transition",
+      title: "Close and transition",
       description: "The deal is signed and closed. After a brief transition period I'll take it from there."
     }
   ];
