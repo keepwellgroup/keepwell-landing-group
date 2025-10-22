@@ -41,16 +41,27 @@ const AboutMe = () => {
                 I earned a bachelor's and a master's degree in engineering from Stanford University as well as an MBA from NYU.
               </p>
               
-              <div className="flex items-center gap-8 mt-8 pt-6 border-t border-border">
+              <div className="flex items-center gap-6 mt-8 pt-6 border-t border-border">
+                <a 
+                  href="/andres-marcos-resume.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 transition-colors font-semibold"
+                >
+                  View Resume →
+                </a>
+              </div>
+              
+              <div className="flex items-center gap-8 mt-6">
                 <img 
                   src={stanfordLogo} 
                   alt="Stanford University" 
-                  className="w-32 h-auto opacity-60"
+                  className="w-32 h-auto"
                 />
                 <img 
                   src={nyuSternLogo} 
                   alt="NYU Stern School of Business" 
-                  className="w-32 h-auto opacity-60"
+                  className="w-32 h-auto"
                 />
               </div>
             </div>
