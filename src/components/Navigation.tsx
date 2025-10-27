@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img src={keepwellLogo} alt="Keepwell Group Logo" className="h-8 w-auto" />
-          <h2 className="text-2xl font-semibold text-primary">Keepwell Group</h2>
+          <h2 className="text-5xl font-semibold text-primary">Keepwell Group</h2>
         </div>
         
         <div className="hidden md:flex items-center gap-6">
