@@ -14,9 +14,6 @@ const Footer = () => {
             <a href="tel:+17867458315" className="hover:text-foreground transition-colors">
               +1 (786) 745-8315
             </a>
-            <p className="text-left md:text-right">
-              727 Crandon Blvd, Apt 202<br />Key Biscayne, FL 33149
-            </p>
           </div>
         </div>
       </div>
