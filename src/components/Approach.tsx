@@ -30,7 +30,7 @@ const Approach = () => {
   ];
 
   return (
-    <section id="approach" className="py-24 bg-background">
+    <section id="approach" className="py-32 bg-muted">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 text-center">

@@ -4,7 +4,7 @@ import nyuSternLogo from "@/assets/nyu-stern-logo.png";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="py-24 bg-background">
+    <section id="about-me" className="py-32 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-12 text-center">
