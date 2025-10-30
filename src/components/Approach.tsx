@@ -30,14 +30,14 @@ const Approach = () => {
   ];
 
   return (
-    <section id="approach" className="py-32 bg-muted">
+    <section id="approach" className="py-32 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 text-center">
             My approach
           </h2>
           
-          <p className="text-lg text-foreground/80 mb-12 text-center max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground mb-16 text-center max-w-3xl mx-auto">
             I believe the best outcomes happen when everyone's incentives align. 
             That means being transparent, respectful, and realistic from day one.
           </p>
@@ -47,11 +47,11 @@ const Approach = () => {
               const IconComponent = step.icon;
               return (
                 <div key={index} className="text-center">
-                  <div className="w-16 h-16 bg-accent/30 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-8 h-8 text-primary" />
+                  <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mx-auto mb-4">
+                    <IconComponent className="w-8 h-8 text-foreground" />
                   </div>
-                  <h3 className="text-lg font-semibold text-primary mb-3">{step.title}</h3>
-                  <p className="text-foreground/70 text-sm leading-relaxed">
+                  <h3 className="text-lg font-semibold text-foreground mb-3">{step.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
                     {step.description}
                   </p>
                 </div>

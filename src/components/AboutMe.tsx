@@ -4,10 +4,10 @@ import nyuSternLogo from "@/assets/nyu-stern-logo.png";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="py-32 bg-background">
+    <section id="about-me" className="py-32 bg-muted">
       <div className="container mx-auto px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-12 text-center">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 text-center">
             About me
           </h2>
           
@@ -20,7 +20,7 @@ const AboutMe = () => {
               />
             </div>
             
-            <div className="space-y-6 text-lg text-foreground/80">
+            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
                 I'm a hands-on operator with a track record of building resilient supply chains and scaling consumer products from concept to national distribution.
               </p>
@@ -46,7 +46,7 @@ const AboutMe = () => {
                   href="/andres-marcos-resume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 transition-colors font-semibold"
+                  className="text-foreground hover:text-muted-foreground transition-colors font-semibold"
                 >
                   View Resume →
                 </a>
