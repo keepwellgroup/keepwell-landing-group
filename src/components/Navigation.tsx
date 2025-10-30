@@ -25,12 +25,6 @@ const Navigation = () => {
             About Me
           </button>
           <button
-            onClick={() => scrollToSection("about")}
-            className="text-sm text-foreground/70 hover:text-foreground transition-colors"
-          >
-            The Search
-          </button>
-          <button
             onClick={() => scrollToSection("approach")}
             className="text-sm text-foreground/70 hover:text-foreground transition-colors"
           >
