@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -9,8 +10,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center pt-20 bg-background">
-      <div className="container mx-auto px-6 py-32">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-background/90" />
+      </div>
+      <div className="container relative z-10 mx-auto px-6 py-32">
         <div className="max-w-5xl mx-auto text-center space-y-8">
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-foreground leading-tight tracking-tight">
             Finding the right business
