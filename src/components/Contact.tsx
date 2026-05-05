@@ -29,10 +29,10 @@ const Contact = () => {
             <Button
               size="lg"
               variant="outline"
-              onClick={() => window.location.href = "tel:+17867458315"}
+              onClick={() => window.location.href = "tel:+13053961474"}
             >
               <Phone className="mr-2 h-5 w-5" />
-              +1 (786) 745-8315
+              +1 (305) 396-1474
             </Button>
           </div>
         </div>
