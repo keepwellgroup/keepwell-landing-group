@@ -10,32 +10,28 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/85 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
+        <button onClick={() => scrollToSection("hero")} className="flex items-center gap-2.5">
           <img src={keepwellLogo} alt="Keepwell Group Logo" className="h-7 w-auto" />
-          <h2 className="text-xl font-semibold text-foreground">Keepwell Group</h2>
-        </div>
-        
-        <div className="hidden md:flex items-center gap-8">
+          <h2 className="text-base font-semibold tracking-tight text-foreground">Keepwell Group</h2>
+        </button>
+
+        <div className="hidden md:flex items-center gap-10">
           <button
             onClick={() => scrollToSection("about-me")}
-            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
           >
-            About Me
+            About
           </button>
           <button
             onClick={() => scrollToSection("approach")}
-            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
           >
-            My Approach
+            Approach
           </button>
-          <Button
-            variant="default"
-            size="sm"
-            onClick={() => scrollToSection("contact")}
-          >
-            Contact Me
+          <Button variant="navy" size="sm" onClick={() => scrollToSection("contact")}>
+            Get in touch ↗
           </Button>
         </div>
       </div>
