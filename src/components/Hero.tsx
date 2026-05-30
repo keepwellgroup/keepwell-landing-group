@@ -22,10 +22,6 @@ const Hero = () => {
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-4xl space-y-8">
-          <div className="flex items-center gap-3 text-navy-muted">
-            <span className="font-mono-label text-accent">● Acquiring Quality Businesses</span>
-            <span className="hidden sm:inline font-mono-label text-navy-muted">· Long-term capital</span>
-          </div>
 
           <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] leading-[0.95]">
             Finding the{" "}
