@@ -22,14 +22,14 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-5xl mx-auto text-center space-y-10">
           <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] leading-[0.95] tracking-tight">
-            Finding the{" "}
-            <span className="font-serif-italic">right</span>{" "}
-            business to build something lasting.
+            Built something{" "}
+            <span className="font-serif-italic">extraordinary?</span>{" "}
+            Let's make sure it stays that way.
           </h1>
 
           <p className="text-lg md:text-xl text-navy-muted max-w-2xl mx-auto leading-relaxed">
-            I'm seeking to acquire and grow a single, profitable business
-            where I can add real value over the long term.
+            I'm looking to acquire one exceptional business and steward it
+            for the long term — with the same care you brought to building it.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
