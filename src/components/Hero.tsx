@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center space-y-10">
           <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] leading-[0.95] tracking-tight">
             Finding the{" "}
-            <span className="text-gradient-warm font-serif-italic">right</span>{" "}
+            <span className="font-serif-italic">right</span>{" "}
             business to build something lasting.
           </h1>
 
