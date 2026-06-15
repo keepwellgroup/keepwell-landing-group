@@ -8,40 +8,42 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative bg-navy pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden">
+    <section id="hero" className="relative bg-aurora pt-32 pb-28 md:pt-44 md:pb-40 overflow-hidden">
       {/* Subtle hero image as atmospheric backdrop */}
       <div
-        className="absolute inset-0 z-0 opacity-15"
+        className="absolute inset-0 z-0 opacity-[0.07] mix-blend-screen"
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-navy/70 via-navy/90 to-navy" />
 
       <div className="container relative z-10 mx-auto px-6">
-        <div className="max-w-4xl space-y-8">
-
-          <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] leading-[0.95]">
+        <div className="max-w-5xl mx-auto text-center space-y-10">
+          <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] leading-[0.95] tracking-tight">
             Finding the{" "}
-            <span className="font-serif-italic text-accent">right</span>{" "}
+            <span className="text-gradient-warm font-serif-italic">right</span>{" "}
             business to build something lasting.
           </h1>
 
-          <p className="text-lg md:text-xl text-navy-muted max-w-xl leading-relaxed">
+          <p className="text-lg md:text-xl text-navy-muted max-w-2xl mx-auto leading-relaxed">
             I'm seeking to acquire and grow a single, profitable business
             where I can add real value over the long term.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 pt-2">
-            <Button variant="cream" size="lg" onClick={() => scrollTo("contact")}>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
+            <Button
+              size="lg"
+              onClick={() => scrollTo("contact")}
+              className="bg-white text-navy hover:bg-white/90 rounded-full px-8 h-14 text-base font-semibold shadow-pill"
+            >
               Get in touch ↗
             </Button>
             <Button
               size="lg"
               onClick={() => scrollTo("approach")}
-              className="bg-transparent border border-navy-border text-navy-foreground hover:bg-white/5"
+              className="bg-white/10 backdrop-blur-sm border border-white/20 text-navy-foreground hover:bg-white/15 rounded-full px-8 h-14 text-base font-semibold"
             >
               My approach
             </Button>
