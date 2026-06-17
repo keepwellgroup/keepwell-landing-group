@@ -22,14 +22,14 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-5xl mx-auto text-center space-y-10">
           <h1 className="font-display text-navy-foreground text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] leading-[0.95] tracking-tight">
-            What you built deserves a{" "}
-            <span className="font-serif-italic">future</span>{" "}
-            worth believing in.
+            Protecting the legacy{" "}
+            <span className="font-serif-italic">you</span>{" "}
+            built.
           </h1>
 
           <p className="text-lg md:text-xl text-navy-muted max-w-2xl mx-auto leading-relaxed">
-            I'm here to acquire one exceptional business and carry it forward —
-            preserving your legacy with the same dedication you gave to creating it.
+            I acquire one business at a time and steward it for the long term —
+            with the same care and discipline you brought to building it.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
